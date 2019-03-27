@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
   lightSwitch.addEventListener('click', flipSwitch);
 
-  // function declarations
+  // function declaration
   function flipSwitch(event) {
     if (event.target.classList.contains('on')) {
       event.target.classList.remove('on');
